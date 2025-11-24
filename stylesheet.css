@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+
+p {
+    margin: 15px 0;
+    padding-bottom: 20px;
+    font-size: larger;
+    opacity: 50%;
+}
+
+#content {
+    font-size: 16pt;
+}
+
+#date {
+    position: absolute;
+    width: 45%;
+    text-align: right;
+    background-color: blanchedalmond;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 100px;
+}
+
+#description {
+    position: absolute;
+    width: 45%;
+    right: 0;
+    top: 190px;
+    text-align: left;
+    background-color: lightblue;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    #content {
+        font-size: 12pt;
+    }
+}
